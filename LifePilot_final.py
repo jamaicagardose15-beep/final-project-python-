@@ -1,14 +1,3 @@
-"""
-LifePilot — Personal Life Management App
-Python 3.10+ | Tkinter + SQLite (standard library only)
-
-Run:
-    python LifePilot.py
-
-Accounts and records are stored in lifepilot.db beside this script.
-This is a desktop application. To let people use it on different devices,
-the app would need a web version and a hosted database.
-"""
 import tkinter as tk
 from tkinter import ttk, messagebox, simpledialog, filedialog
 import sqlite3
